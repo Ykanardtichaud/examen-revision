@@ -1,0 +1,40 @@
+.box {
+  background-color: #42a5f5;
+  border: 1px solid #0d47a1;
+}
+
+.blue-box,
+.blue-box-bis,
+.blue-box-long {
+  display: flex;
+}
+
+.blue-box {
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.blue-box-bis {
+  flex-flow: column;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 82px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-big {
+  width: 320px;
+  height: 62px;
+}
+
+.blue-box-long {
+  flex-flow: row wrap;
+  margin-bottom: 50px;
+}
